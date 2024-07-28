@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanime</title>
+    <link rel="icon" href="../assets/logo.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="verify.css">
+    <style>
+       .nameMessage {
+        font-size: 12px;  /* Makes the text smaller */
+        padding: 10px;   /* Adds padding around the text */
+        border: 1px solid #ccc; /* Optional: Adds a border for better visibility */
+        margin: 5px 0;  /* Optional: Adds margin for spacing between elements */
+      }
+    </style>
+</head>
+<body>
+  <div id="moveContainer">
+    <div id="imageContainer">
+      <img id="rainBow" src="../assets/kotori3.png" alt="" srcset="">
+    </div>
+    <div id="container">
+      <div id="bigTitle">
+        <img id="logoImg" src="../assets/logo.png" alt="" srcset="">
+        <div id="fanime">Fanime</div>  
+      </div>
+    
+      <div id="purple_container">
+        <div id="title">
+          Reset Password
+        </div>
+        <form action="verify.php" method="post">
+          
+          <div id="emailContainer">
+            <input type="email" placeholder="New email address" name="email" required>
+          </div>
+
+        <hr>
+          <div id="signUpContainer">
+          <input id="loginBtn" class="button" type="submit" name="submit" value="Next">
+        <p id="signUpBtn" class="button">Back to login</p>
+
+        </div>
+      </form>
+    </div>  
+  </div>
+</div>
+  </body>
+</html>
+   

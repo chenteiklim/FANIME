@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanime</title>
+    <link rel="icon" href="../assets/logo.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="login.css">
+    
+</head>
+<body>
+  <div id="moveContainer">
+    <div id="imageContainer">
+      <img id="rainBow" src="../assets/kotori3.png" alt="" srcset="">
+    </div>
+    <div id="container">
+      <div id="bigTitle">
+        <img id="logoImg" src="../assets/logo.png" alt="" srcset="">
+        <div id="fanime">Fanime</div>  
+      </div>
+    
+      <div id="purple_container">
+        <div id="title">
+          Login
+        </div>
+        <form action="login.php" method="post">
+          
+          <div id="emailContainer">
+            <input type="email" placeholder="email address" name="email" required>
+          </div>
+          <div id="passwordContainer">
+              <input type="password" id="password" placeholder="Password" name="passwords" required>
+              <button id="show" type="button">Show</button>
+            </div>
+        <div id="messageContainer"></div>
+        <hr>
+          <div id="signUpContainer">
+          <input id="loginBtn" class="button" type="submit" name="submit" value="Login">
+        <p id="forgotBtn" class="button">Forgot password</p>
+        <p id="signUpBtn" class="button">Don't have an account?</p>
+
+        </div>
+      </form>
+    </div>  
+  </div>
+</div>
+<script src="login.js"></script>
+  </body>
+</html>
+   

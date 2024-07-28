@@ -1,0 +1,169 @@
+@keyframes moveLeft {
+    from {
+        margin-left: 20px;
+    }
+    to {
+        margin-left: calc(45vw - 300px); /* Adjust this value for the desired endpoint */
+    }
+}
+
+#moveContainer {
+    display: flex;
+    animation: moveLeft 0.5s ease forwards; /* Apply animation to move left */
+}
+
+@media screen and (max-width: 1400px) {
+    #moveContainer {
+        animation: none; /* Disable animation for smaller screens */
+        margin-left: 10px; /* Adjust left margin for smaller screens */
+    }
+}
+    
+    body {
+        display: flex;
+        font-size: 18px;
+        background-color: black;
+    }
+    #bigTitle{
+        display: flex;
+    }
+
+ 
+    #logoImg{
+        margin-top: 13px;
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+    }
+    #loginTag{
+        text-decoration: none;
+        color: white;
+    }
+
+    #moveContainer{
+        display: flex;
+        animation: moveLeft 0.5s ease forwards; /* Use the animation for leftward movement */
+    }
+
+    #imageContainer{
+        width: 300px;
+        height: 420px;
+        border-radius: 10px;
+
+    }
+
+    #rainBow{
+        padding-top: 80px;
+        width: 320px;
+        height: 480px;
+        border-radius: 10px;
+
+    }
+   
+    #container {
+        margin-top: 20px;
+        width: 300px; /* Adjust width as needed */
+        height: 500px; /* Adjust height as needed */
+    }
+    #fanime {
+        font-size: 40px;
+        color: aquamarine;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    p{
+        margin-left: 80px;
+        font-size: 16px;
+        color: blue;
+        cursor: pointer;
+    }
+    
+    #purple_container{
+        margin-top: 50px;
+        background-color: #151519;
+        border-radius: 5px;
+        width: 320px;
+        height: 440px;
+    }
+    #title{
+        font-size: 24px;
+        margin-left: 120px;
+        padding-top: 20px;
+        color: white;
+    }
+    #usernameContainer{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+   
+    #emailContainer{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    #emailContainer2{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    #passwordContainer{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    #passwordContainer2{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+   
+
+    input[type="text"]{
+        width: 200px; /* Set the width */
+        height:10px; /* Set the height */
+        padding: 8px; /* Add padding for better appearance */
+        font-size: 16px; /* Adjust the font size */
+    }
+    input[type="email"] {
+        width: 200px; /* Set the width */
+        height:10px; /* Set the height */
+        padding: 8px; /* Add padding for better appearance */
+        font-size: 16px; /* Adjust the font size */
+    }
+    input[type="password"]{
+        width: 200px; /* Set the width */
+        height:10px; /* Set the height */
+        padding: 8px; /* Add padding for better appearance */
+        font-size: 16px; /* Adjust the font size */
+    }
+    #show{
+        height: 27px;
+    }
+    input[type="password"]{
+        width: 200px; /* Set the width */
+        height:10px; /* Set the height */
+        padding: 8px; /* Add padding for better appearance */
+        font-size: 16px; /* Adjust the font size */
+    }
+    #show2{
+        height: 27px;
+    }
+
+    .errorMessage{
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 20px;
+    color:#FBFAF5;
+    }
+
+    #signUpBtn{
+        height: 30px;
+        width: 280px;
+        margin-top: 30px;
+        margin-left: 20px;
+        background-color: lightblue;
+        border:none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+
+

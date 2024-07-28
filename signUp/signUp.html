@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanime</title>
+    <link rel="icon" href="../assets/logo.png" sizes="32x32" type="image/jpg">
+    <link rel="stylesheet" href="signUp.css">
+   
+</head>
+<body>
+  <div id="moveContainer">
+    <div id="imageContainer">
+      <img id="rainBow" src="../assets/kotori3.png" alt="" srcset="">
+    </div>
+    <div id="container">
+      <div id="bigTitle">
+        <img id="logoImg" src="../assets/logo.png" alt="" srcset="">
+        <div id="fanime">Fanime</div>  
+      </div>
+    
+      <div id="purple_container">
+        <div id="title">
+          Register
+        </div>
+        <form action="verifyRegister.php" method="post">
+          <div id="usernameContainer">
+            <input type="text" placeholder="Username" name="names" required>
+          </div>
+          <div id="emailContainer">
+            <input type="email" placeholder="email address" name="email" required>
+          </div>
+          <div id="emailContainer2">
+            <input type="email" placeholder="Confirm email address" name="email2" required>
+          </div>
+          <div id="passwordContainer">
+              <input type="password" id="password" placeholder="Password" name="passwords" required>
+              <button id="show" type="button">Show</button>
+            </div>
+          <div id="passwordContainer2">
+            <input type="password" id="password2" placeholder="Confirm Password " name="password2" required>
+            <button id="show2" type="button">Show</button>
+        </div>
+        <div id="errorContainer"></div>
+        <div id="signUpContainer">
+          <input id="signUpBtn" class="button" type="submit" name="submit" value="Register">
+          <p> <a id="loginTag" href="../login/login.html" id="login">Already have an Account?</a></p>
+        </div>
+      </form>
+    </div>  
+  </div>
+</div>
+<script src="signUp.js"></script>
+  </body>
+</html>
+   

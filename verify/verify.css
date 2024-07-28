@@ -1,0 +1,171 @@
+@keyframes moveLeft {
+    from {
+        margin-left: 20px;
+    }
+    to {
+        margin-left: calc(45vw - 300px); /* Adjust this value for the desired endpoint */
+    }
+}
+
+#moveContainer {
+    display: flex;
+    animation: moveLeft 0.5s ease forwards; /* Apply animation to move left */
+}
+
+@media screen and (max-width: 1400px) {
+    #moveContainer {
+        animation: none; /* Disable animation for smaller screens */
+        margin-left: 10px; /* Adjust left margin for smaller screens */
+    }
+}
+    
+    body {
+        display: flex;
+        font-size: 18px;
+        background-color: black;
+    }
+    #bigTitle{
+        display: flex;
+    }
+
+    #logoImg{
+        margin-top: 43px;
+        width: 45px;
+        height: 45px;
+        border-radius: 5px;
+    }
+    #forgotBtn{
+        text-decoration: none;
+        margin-top: 20px;
+        margin-left: 100px;
+        color: grey;
+    }
+
+    #moveContainer{
+        display: flex;
+        animation: moveLeft 0.5s ease forwards; /* Use the animation for leftward movement */
+    }
+
+    #imageContainer{
+        width: 300px;
+        height: 420px;
+        border-radius: 10px;
+
+    }
+
+    #rainBow{
+        padding-top: 130px;
+        width: 320px;
+        height: 480px;
+        border-radius: 10px;
+
+    }
+   
+    #container {
+        margin-top: 20px;
+        width: 300px; /* Adjust width as needed */
+        height: 500px; /* Adjust height as needed */
+    }
+    #fanime {
+        font-size: 60px;
+        color: aquamarine;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    p{
+        margin-left: 80px;
+        font-size: 16px;
+        color: blue;
+        cursor: pointer;
+    }
+    
+    #purple_container{
+        margin-top: 100px;
+        background-color: #151519;
+        border-radius: 5px;
+        width: 320px;
+        height: 300px;
+    }
+    #title{
+        font-size: 24px;
+        margin-left: 90px;
+        padding-top: 30px;
+        color: white;
+    }
+    #usernameContainer{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+   
+    #emailContainer{
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+    #passwordContainer{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    #passwordContainer2{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+   
+
+    input[type="text"]{
+        width: 200px; /* Set the width */
+        height:10px; /* Set the height */
+        padding: 8px; /* Add padding for better appearance */
+        font-size: 16px; /* Adjust the font size */
+    }
+    input[type="email"] {
+        width: 200px; /* Set the width */
+        height:10px; /* Set the height */
+        padding: 8px; /* Add padding for better appearance */
+        font-size: 16px; /* Adjust the font size */
+    }
+    input[type="password"]{
+        width: 200px; /* Set the width */
+        height:10px; /* Set the height */
+        padding: 8px; /* Add padding for better appearance */
+        font-size: 16px; /* Adjust the font size */
+    }
+    #show{
+        height: 27px;
+        border: none;
+    }
+    input[type="password"]{
+        width: 200px; /* Set the width */
+        height:10px; /* Set the height */
+        padding: 8px; /* Add padding for better appearance */
+        font-size: 16px; /* Adjust the font size */
+    }
+  
+
+    #messageContainer{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+   
+    }
+    #loginBtn{
+        height: 30px;
+        width: 280px;
+        margin-top: 10px;
+        margin-left: 20px;
+        background-color: white;
+        border:none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #signUpBtn{
+       color: lavender;
+       margin-left: 120px;
+    }
+    hr {
+        border-color: #ccc;
+        margin: 30px 0;
+      }
+    
+
+
+
